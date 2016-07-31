@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="Flex" version="4">
-  <component name="FlexBuildConfigurationManager" active="WorkerHelper">
+  <component name="FlexBuildConfigurationManager" active="WorkerOggEncode">
     <configurations>
-      <configuration name="WorkerHelper" pure-as="true" main-class="WaitWorkTest.WorkTest" output-file="WorkTest.swf" output-folder="$MODULE_DIR$/WorkSwf">
+      <configuration name="WorkerOggEncode" pure-as="true" main-class="WorkerOggEncode" output-file="WorkerOggEncode.swf" output-folder="$MODULE_DIR$/../WorkSwf/WorkerOggEncodeSwf">
         <dependencies target-player="22.0">
           <entries>
-            <entry library-id="782b5923-ae35-43f5-b757-b1eb4030b2c8">
+            <entry library-id="10801a52-c74b-46c6-b16a-c9c605a07636">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -28,13 +28,13 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="782b5923-ae35-43f5-b757-b1eb4030b2c8" />
+        <properties id="10801a52-c74b-46c6-b16a-c9c605a07636" />
         <CLASSES>
-          <root url="file://$MODULE_DIR$/libs" />
+          <root url="file://$MODULE_DIR$/../libs" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../libs" recursive="false" />
       </library>
     </orderEntry>
   </component>

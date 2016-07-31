@@ -1,7 +1,7 @@
 /**
  * Created by admin on 2016/7/29.
  */
-package {
+package WaitWorkTest {
 import flash.display.Sprite;
 import flash.events.Event;
 import flash.utils.getTimer;
@@ -9,9 +9,6 @@ import flash.utils.getTimer;
 public class WorkTest extends Sprite {
     public function WorkTest() {
         super();
-
-
-
         if (stage)
         {
             init();
@@ -25,7 +22,6 @@ public class WorkTest extends Sprite {
     private function init():void
     {
         removeEventListener(Event.ADDED_TO_STAGE, init);
-
         traceTime();
         Waiter.wait(1000);
         traceTime();
